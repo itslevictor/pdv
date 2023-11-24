@@ -25,9 +25,9 @@ body {
     color: #000000;
     margin-bottom: 20px;
 }
-#loginForm, #registerForm, #userList, #dashboard {
+#loginForm, #registerForm, #userList, #dashboard, #products {
     margin-top: 20px;
 }
-#loginForm .form-control, #registerForm .form-control {
+#loginForm .form-control, #registerForm .form-control, #userList .form-control, #products .form-control {
     margin-bottom: 10px;
 }
