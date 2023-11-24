@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seu Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img id="image" src="seu-link-aqui" alt="Sua Imagem">
+    <div class="container">
+        <h1 class="title">Ponto de Venda Undefineds</h1>
+        <div id="buttons">
+            <button class="btn btn-primary" id="loginBtn">Fazer Login</button>
+            <button class="btn btn-primary" id="registerBtn">Cadastrar</button>
+            <button class="btn btn-primary">Listar Usuários</button>
+        </div>
+        <div id="loginForm" style="display: none;">
+            <input type="email" class="form-control" id="email" placeholder="Email" required>
+            <input type="password" class="form-control" id="password" placeholder="Senha" required>
+            <button class="btn btn-primary">Enviar</button>
+            <button class="btn btn-secondary" id="backBtnLogin">Voltar</button>
+        </div>
+        <div id="registerForm" style="display: none;">
+            <input type="text" class="form-control" id="name" placeholder="Nome" required>
+            <input type="email" class="form-control" id="regEmail" placeholder="Email" required>
+            <input type="password" class="form-control" id="regPassword" placeholder="Senha" required>
+            <button class="btn btn-primary">Enviar</button>
+            <button class="btn btn-secondary" id="backBtnRegister">Voltar</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
