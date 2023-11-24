@@ -1,0 +1,33 @@
+body {
+    background-color: #607D8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: none;
+    text-align: center;
+}
+.btn {
+    margin: 5px;
+}
+#image {
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title {
+    color: #000000;
+    margin-bottom: 20px;
+}
+#loginForm, #registerForm {
+    margin-top: 20px;
+}
+#loginForm .form-control, #registerForm .form-control {
+    margin-bottom: 10px;
+}
