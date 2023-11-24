@@ -13,20 +13,60 @@
         <div id="buttons">
             <button class="btn btn-primary" id="loginBtn">Fazer Login</button>
             <button class="btn btn-primary" id="registerBtn">Cadastrar</button>
-            <button class="btn btn-primary">Listar Usuários</button>
+            <button class="btn btn-primary" id="listUsersBtn">Listar Usuários</button>
         </div>
         <div id="loginForm" style="display: none;">
             <input type="email" class="form-control" id="email" placeholder="Email" required>
             <input type="password" class="form-control" id="password" placeholder="Senha" required>
-            <button class="btn btn-primary">Enviar</button>
+            <button class="btn btn-primary" id="submitBtn">Enviar</button>
             <button class="btn btn-secondary" id="backBtnLogin">Voltar</button>
         </div>
         <div id="registerForm" style="display: none;">
             <input type="text" class="form-control" id="name" placeholder="Nome" required>
             <input type="email" class="form-control" id="regEmail" placeholder="Email" required>
             <input type="password" class="form-control" id="regPassword" placeholder="Senha" required>
-            <button class="btn btn-primary">Enviar</button>
+            <button class="btn btn-primary" id="regSubmitBtn">Enviar</button>
             <button class="btn btn-secondary" id="backBtnRegister">Voltar</button>
+        </div>
+        <div id="userList" style="display: none;">
+            <table class="table table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>João</td>
+                        <td>joao@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>Maria</td>
+                        <td>maria@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos</td>
+                        <td>carlos@email.com</td>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>ana@email.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn btn-secondary" id="backBtnUserList">Voltar</button>
+        </div>
+        <div id="dashboard" style="display: none;">
+            <button class="btn btn-primary" id="categoriesBtn">Categorias</button>
+            <button class="btn btn-primary" id="clientsBtn">Clientes</button>
+            <button class="btn btn-primary" id="productsBtn">Produtos</button>
+            <button class="btn btn-secondary" id="backBtnDashboard">Voltar</button>
+        </div>
+        <div id="successMessage" style="display: none;">
+            <div class="alert alert-success" role="alert">
+                Cadastro feito com sucesso
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
