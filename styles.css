@@ -25,7 +25,7 @@ body {
     color: #000000;
     margin-bottom: 20px;
 }
-#loginForm, #registerForm {
+#loginForm, #registerForm, #userList, #dashboard {
     margin-top: 20px;
 }
 #loginForm .form-control, #registerForm .form-control {
