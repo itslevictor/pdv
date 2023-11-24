@@ -29,32 +29,10 @@
             <button class="btn btn-secondary" id="backBtnRegister">Voltar</button>
         </div>
         <div id="userList" style="display: none;">
-            <table class="table table-dark">
-                <thead>
-                    <tr>
-                        <th scope="col">Nome</th>
-                        <th scope="col">Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>João</td>
-                        <td>joao@email.com</td>
-                    </tr>
-                    <tr>
-                        <td>Maria</td>
-                        <td>maria@email.com</td>
-                    </tr>
-                    <tr>
-                        <td>Carlos</td>
-                        <td>carlos@email.com</td>
-                    </tr>
-                    <tr>
-                        <td>Ana</td>
-                        <td>ana@email.com</td>
-                    </tr>
-                </tbody>
-            </table>
+            <input type="number" class="form-control" id="userId" placeholder="Digite um número" required>
+            <button class="btn btn-primary" id="sendBtn">Enviar</button>
+            <button class="btn btn-primary" id="listAllBtn">Listar todos os clientes</button>
+            <div id="userTable"></div>
             <button class="btn btn-secondary" id="backBtnUserList">Voltar</button>
         </div>
         <div id="dashboard" style="display: none;">
@@ -63,9 +41,18 @@
             <button class="btn btn-primary" id="productsBtn">Produtos</button>
             <button class="btn btn-secondary" id="backBtnDashboard">Voltar</button>
         </div>
+        <div id="products" style="display: none;">
+            <input type="number" class="form-control" id="productId" placeholder="Digite um número" required>
+            <button class="btn btn-primary" id="viewBtn">Ver</button>
+            <button class="btn btn-primary" id="deleteBtn">Deletar</button>
+            <button class="btn btn-primary" id="updateBtn">Atualizar</button>
+            <button class="btn btn-primary" id="createBtn">Criar</button>
+            <div id="productTable"></div>
+            <button class="btn btn-secondary" id="backBtnProducts">Voltar</button>
+        </div>
         <div id="successMessage" style="display: none;">
             <div class="alert alert-success" role="alert">
-                Cadastro feito com sucesso
+                Sucesso
             </div>
         </div>
     </div>
